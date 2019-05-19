@@ -25,9 +25,6 @@ for (let i = 0; i < data.edges.length; i++) {
 
 const shortestPath = graph.shortestPath(nodes[18], nodes[246], nodes);
 if(shortestPath.length) {
-    /* Anmerkung zum Ergebnis: die 14 am Ende sind weg geflogen wegen Ungenauigkeit von JS. 
-     Da hier habe hauptsächlich der Weg und nicht die exakte Zeit gefragt war, 
-    denke ich, dass diese Implementierung ausreicht. */
     console.log(`Kürzeste Pfad von der Erde zu b3-r7-r4nd7: \n${shortestPath[0].join('->')} in: ${shortestPath[1]}`);
 } else {
     console.log('Leider kein Pfad gefunden!');
