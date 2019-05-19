@@ -1,0 +1,12 @@
+{
+  "name": "shortest-path-challenge",
+  "version": "1.0.0",
+  "description": "Find the shortest path for non negative weight edges",
+  "main": "main.js",
+  "scripts": {},
+  "author": "Kevin Olomu",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fastpriorityqueue": "^0.6.3"
+  }
+}
